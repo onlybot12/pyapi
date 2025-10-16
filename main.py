@@ -41,7 +41,7 @@ quotes = [
 @app.route('/')
 def index():
     msg = random.choice(quotes)
-    return jsonify({"creator": "SatzzDev", "message": msg})
+    return jsonify({"creator": "Lanasad", "message": msg})
 
 # YouTube download endpoint
 @app.route('/yt', methods=['GET'])
